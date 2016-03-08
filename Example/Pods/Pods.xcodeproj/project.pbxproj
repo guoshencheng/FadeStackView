@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B082CB807A4BAD34854C72D770DF28F /* Pods-FadeStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE87D82EEFD583B5E4DA963CF74C935F /* Pods-FadeStackView_Tests-dummy.m */; };
+		56F95F6DF2BAA6ABCCBF8E3384F21704 /* FadeStackView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5E860FFA6BF21EB87C402ED3E5E184B /* FadeStackView.bundle */; };
+		70347150FC32BABED26CA930EFB96D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		956F299B8E1D5D518FA004DCB6D77705 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FE79170FA6665CE4AE30AA91F540CC /* ReplaceMe.m */; };
+		9A213D6764232FC64E4EDDED098B3A20 /* FadeStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7622FF19EABFE676B44E096FE9225A52 /* FadeStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D120DD8DECAC0AFF277ACFD94A22384D /* FadeStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1961D52B20ABD7064E34D50F8EE72C /* FadeStackView-dummy.m */; };
+		DEBCD89CD6680C8EF13A4E19E7FFA111 /* Pods-FadeStackView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CF15765CF123F8A802A7AF97B3EA7 /* Pods-FadeStackView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E441FC6D73BFC425962E04EC4F713F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FBEC02182D13D02B33B28867A432E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D0C30D20919F1119AB66A24A375A2D;
+			remoteInfo = FadeStackView;
+		};
+		166223F03AFEF20BC009A42B47A2E041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6BF75B42CE1A54DE479CDAEC7F93DA;
+			remoteInfo = "FadeStackView-FadeStackView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED7EEA5DE8720B2E4FEF9986EAFE76C /* Pods-FadeStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FadeStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18818AFA54C3E733FC5D86DB1A3E6012 /* Pods-FadeStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FadeStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		441D58A660E9B01FD385D83D7190DFBC /* Pods-FadeStackView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FadeStackView_Tests.modulemap"; sourceTree = "<group>"; };
+		4D8CF15765CF123F8A802A7AF97B3EA7 /* Pods-FadeStackView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FadeStackView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		523F6EC80BF192570AB843541D6986D6 /* Pods-FadeStackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadeStackView_Tests-resources.sh"; sourceTree = "<group>"; };
+		55AA7C67FA45825CDCE59D5371D9153E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56337ED68EF0A0630CE345E533963A3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574C910E0C46D51702F2924AF29FBA43 /* FadeStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FadeStackView.modulemap; sourceTree = "<group>"; };
+		654AF6B4BDD2D133D8DF81C3B453671A /* Pods-FadeStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadeStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7622FF19EABFE676B44E096FE9225A52 /* FadeStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FadeStackView-umbrella.h"; sourceTree = "<group>"; };
+		78FE79170FA6665CE4AE30AA91F540CC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		8E8844E31AB808ECF91F6E5213BABE99 /* FadeStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FadeStackView.xcconfig; sourceTree = "<group>"; };
+		B0D2063CDCD7727168DEA84C9CB74406 /* FadeStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FadeStackView-prefix.pch"; sourceTree = "<group>"; };
+		B821ED19C59A6CFEE9A41BFCFB049171 /* Pods-FadeStackView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadeStackView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE87D82EEFD583B5E4DA963CF74C935F /* Pods-FadeStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FadeStackView_Tests-dummy.m"; sourceTree = "<group>"; };
+		BF1961D52B20ABD7064E34D50F8EE72C /* FadeStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FadeStackView-dummy.m"; sourceTree = "<group>"; };
+		C5E860FFA6BF21EB87C402ED3E5E184B /* FadeStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6267C6BBB612ACA2517E4458532F96F /* Pods_FadeStackView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FadeStackView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFEB085D6982B327DC72A44C38FA8F4 /* FadeStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FadeStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3F2ED146B08C16EED5AF4068C69F76 /* Pods-FadeStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadeStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4179A0D0FC14C614D570F0D69F643362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDDCFEC163126598ACEB68B4CFA621A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70347150FC32BABED26CA930EFB96D70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8866F037CF43EAE2B05028939FDCDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E441FC6D73BFC425962E04EC4F713F39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24318B5E06CBFE3D3D6D414A71FE4858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E860FFA6BF21EB87C402ED3E5E184B /* FadeStackView.bundle */,
+				EAFEB085D6982B327DC72A44C38FA8F4 /* FadeStackView.framework */,
+				E6267C6BBB612ACA2517E4458532F96F /* Pods_FadeStackView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0F9A9FA7EBC58945E42BC1B5270E4D /* Pods-FadeStackView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56337ED68EF0A0630CE345E533963A3F /* Info.plist */,
+				441D58A660E9B01FD385D83D7190DFBC /* Pods-FadeStackView_Tests.modulemap */,
+				18818AFA54C3E733FC5D86DB1A3E6012 /* Pods-FadeStackView_Tests-acknowledgements.markdown */,
+				0ED7EEA5DE8720B2E4FEF9986EAFE76C /* Pods-FadeStackView_Tests-acknowledgements.plist */,
+				BE87D82EEFD583B5E4DA963CF74C935F /* Pods-FadeStackView_Tests-dummy.m */,
+				B821ED19C59A6CFEE9A41BFCFB049171 /* Pods-FadeStackView_Tests-frameworks.sh */,
+				523F6EC80BF192570AB843541D6986D6 /* Pods-FadeStackView_Tests-resources.sh */,
+				4D8CF15765CF123F8A802A7AF97B3EA7 /* Pods-FadeStackView_Tests-umbrella.h */,
+				FC3F2ED146B08C16EED5AF4068C69F76 /* Pods-FadeStackView_Tests.debug.xcconfig */,
+				654AF6B4BDD2D133D8DF81C3B453671A /* Pods-FadeStackView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FadeStackView_Tests";
+			path = "Target Support Files/Pods-FadeStackView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				D246DE808E22337D4302059ACA4C2503 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				24318B5E06CBFE3D3D6D414A71FE4858 /* Products */,
+				D6642C89AEACA867CCE7800E14ED62EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		857B79BDD434BCBF780BE847C61BF7EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				78FE79170FA6665CE4AE30AA91F540CC /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ABC18EF1DB86BB3ECAA16E7343B30B8A /* FadeStackView */ = {
+			isa = PBXGroup;
+			children = (
+				E3BE53CDDA7D72D9F16F9C948C58FD0C /* Pod */,
+				C610E1B9D31B45A2A72BCCB76755338F /* Support Files */,
+			);
+			name = FadeStackView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C610E1B9D31B45A2A72BCCB76755338F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				574C910E0C46D51702F2924AF29FBA43 /* FadeStackView.modulemap */,
+				8E8844E31AB808ECF91F6E5213BABE99 /* FadeStackView.xcconfig */,
+				BF1961D52B20ABD7064E34D50F8EE72C /* FadeStackView-dummy.m */,
+				B0D2063CDCD7727168DEA84C9CB74406 /* FadeStackView-prefix.pch */,
+				7622FF19EABFE676B44E096FE9225A52 /* FadeStackView-umbrella.h */,
+				55AA7C67FA45825CDCE59D5371D9153E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FadeStackView";
+			sourceTree = "<group>";
+		};
+		D246DE808E22337D4302059ACA4C2503 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18EF1DB86BB3ECAA16E7343B30B8A /* FadeStackView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D6642C89AEACA867CCE7800E14ED62EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0F9A9FA7EBC58945E42BC1B5270E4D /* Pods-FadeStackView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3BE53CDDA7D72D9F16F9C948C58FD0C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				857B79BDD434BCBF780BE847C61BF7EA /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9CDB8913095B801E2118274C56B73000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A213D6764232FC64E4EDDED098B3A20 /* FadeStackView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EBC47345C7B9137D6C1B62FB2E7512 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBCD89CD6680C8EF13A4E19E7FFA111 /* Pods-FadeStackView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F6BF75B42CE1A54DE479CDAEC7F93DA /* FadeStackView-FadeStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F75B78FB536020802C78E19B2D7E4F0 /* Build configuration list for PBXNativeTarget "FadeStackView-FadeStackView" */;
+			buildPhases = (
+				14974948818C802EA581FBEF0912C939 /* Sources */,
+				4179A0D0FC14C614D570F0D69F643362 /* Frameworks */,
+				7360F9685616E8FCA6E470D277CDC558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FadeStackView-FadeStackView";
+			productName = "FadeStackView-FadeStackView";
+			productReference = C5E860FFA6BF21EB87C402ED3E5E184B /* FadeStackView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A15734DB565343383E7DC91B5F3BCECF /* Pods-FadeStackView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBA2B7746879C060ED4CA85AC2250A9 /* Build configuration list for PBXNativeTarget "Pods-FadeStackView_Tests" */;
+			buildPhases = (
+				8D9C208A4953C587E0DDDC6F2ACAA53C /* Sources */,
+				E8866F037CF43EAE2B05028939FDCDFC /* Frameworks */,
+				E3EBC47345C7B9137D6C1B62FB2E7512 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EDB301610EB4B09004C026CF92670E /* PBXTargetDependency */,
+			);
+			name = "Pods-FadeStackView_Tests";
+			productName = "Pods-FadeStackView_Tests";
+			productReference = E6267C6BBB612ACA2517E4458532F96F /* Pods_FadeStackView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9D0C30D20919F1119AB66A24A375A2D /* FadeStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0474BCE96F5BDC4F892A53C24331A5D /* Build configuration list for PBXNativeTarget "FadeStackView" */;
+			buildPhases = (
+				3D4D61663F53B57F8597E0119432AC0A /* Sources */,
+				6CDDCFEC163126598ACEB68B4CFA621A /* Frameworks */,
+				61D53879C0BFF302FB55639AEFBDA70C /* Resources */,
+				9CDB8913095B801E2118274C56B73000 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336D7F7FEEFB38114FE6F9E0EA51030C /* PBXTargetDependency */,
+			);
+			name = FadeStackView;
+			productName = FadeStackView;
+			productReference = EAFEB085D6982B327DC72A44C38FA8F4 /* FadeStackView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 24318B5E06CBFE3D3D6D414A71FE4858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D0C30D20919F1119AB66A24A375A2D /* FadeStackView */,
+				3F6BF75B42CE1A54DE479CDAEC7F93DA /* FadeStackView-FadeStackView */,
+				A15734DB565343383E7DC91B5F3BCECF /* Pods-FadeStackView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D53879C0BFF302FB55639AEFBDA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F95F6DF2BAA6ABCCBF8E3384F21704 /* FadeStackView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7360F9685616E8FCA6E470D277CDC558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14974948818C802EA581FBEF0912C939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4D61663F53B57F8597E0119432AC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D120DD8DECAC0AFF277ACFD94A22384D /* FadeStackView-dummy.m in Sources */,
+				956F299B8E1D5D518FA004DCB6D77705 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9C208A4953C587E0DDDC6F2ACAA53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B082CB807A4BAD34854C72D770DF28F /* Pods-FadeStackView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336D7F7FEEFB38114FE6F9E0EA51030C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FadeStackView-FadeStackView";
+			target = 3F6BF75B42CE1A54DE479CDAEC7F93DA /* FadeStackView-FadeStackView */;
+			targetProxy = 166223F03AFEF20BC009A42B47A2E041 /* PBXContainerItemProxy */;
+		};
+		42EDB301610EB4B09004C026CF92670E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FadeStackView;
+			target = D9D0C30D20919F1119AB66A24A375A2D /* FadeStackView */;
+			targetProxy = 04FBEC02182D13D02B33B28867A432E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B1A5810580E99699F5A2AE1B8ADCE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8844E31AB808ECF91F6E5213BABE99 /* FadeStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FadeStackView/FadeStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FadeStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FadeStackView/FadeStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FadeStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		136693E07B5B408DE2EDC45D2019C85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654AF6B4BDD2D133D8DF81C3B453671A /* Pods-FadeStackView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FadeStackView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FadeStackView_Tests/Pods-FadeStackView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FadeStackView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EB69F15049CE56FC675FA2B748C8304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8844E31AB808ECF91F6E5213BABE99 /* FadeStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FadeStackView/FadeStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FadeStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FadeStackView/FadeStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FadeStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2CD3C915FF7C963E8CC213EB8978D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8844E31AB808ECF91F6E5213BABE99 /* FadeStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FadeStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		705839A7A377BE1D942595CCDA6ACE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8844E31AB808ECF91F6E5213BABE99 /* FadeStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FadeStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CFC21F5C867816947C6EB0C5BD3AD415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3F2ED146B08C16EED5AF4068C69F76 /* Pods-FadeStackView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FadeStackView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FadeStackView_Tests/Pods-FadeStackView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FadeStackView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F75B78FB536020802C78E19B2D7E4F0 /* Build configuration list for PBXNativeTarget "FadeStackView-FadeStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705839A7A377BE1D942595CCDA6ACE12 /* Debug */,
+				4A2CD3C915FF7C963E8CC213EB8978D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0474BCE96F5BDC4F892A53C24331A5D /* Build configuration list for PBXNativeTarget "FadeStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB69F15049CE56FC675FA2B748C8304 /* Debug */,
+				0B1A5810580E99699F5A2AE1B8ADCE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBA2B7746879C060ED4CA85AC2250A9 /* Build configuration list for PBXNativeTarget "Pods-FadeStackView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC21F5C867816947C6EB0C5BD3AD415 /* Debug */,
+				136693E07B5B408DE2EDC45D2019C85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

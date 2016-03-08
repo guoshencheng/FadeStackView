@@ -1,0 +1,14 @@
+PODS:
+  - FadeStackView (0.1.0)
+
+DEPENDENCIES:
+  - FadeStackView (from `../`)
+
+EXTERNAL SOURCES:
+  FadeStackView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FadeStackView: 8ed74ee78f7ad3c2c2ecd813aa4a764a99d12558
+
+COCOAPODS: 0.39.0
