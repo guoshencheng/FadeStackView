@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EFE875C1C9A9C7000E5DBCD /* FadeStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFE875A1C9A9C7000E5DBCD /* FadeStackView.h */; };
+		2EFE875D1C9A9C7000E5DBCD /* FadeStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE875B1C9A9C7000E5DBCD /* FadeStackView.m */; };
 		3B082CB807A4BAD34854C72D770DF28F /* Pods-FadeStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE87D82EEFD583B5E4DA963CF74C935F /* Pods-FadeStackView_Tests-dummy.m */; };
 		56F95F6DF2BAA6ABCCBF8E3384F21704 /* FadeStackView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5E860FFA6BF21EB87C402ED3E5E184B /* FadeStackView.bundle */; };
 		70347150FC32BABED26CA930EFB96D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		956F299B8E1D5D518FA004DCB6D77705 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FE79170FA6665CE4AE30AA91F540CC /* ReplaceMe.m */; };
 		9A213D6764232FC64E4EDDED098B3A20 /* FadeStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7622FF19EABFE676B44E096FE9225A52 /* FadeStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D120DD8DECAC0AFF277ACFD94A22384D /* FadeStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1961D52B20ABD7064E34D50F8EE72C /* FadeStackView-dummy.m */; };
 		DEBCD89CD6680C8EF13A4E19E7FFA111 /* Pods-FadeStackView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CF15765CF123F8A802A7AF97B3EA7 /* Pods-FadeStackView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		0ED7EEA5DE8720B2E4FEF9986EAFE76C /* Pods-FadeStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FadeStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		18818AFA54C3E733FC5D86DB1A3E6012 /* Pods-FadeStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FadeStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EFE875A1C9A9C7000E5DBCD /* FadeStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeStackView.h; sourceTree = "<group>"; };
+		2EFE875B1C9A9C7000E5DBCD /* FadeStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeStackView.m; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		441D58A660E9B01FD385D83D7190DFBC /* Pods-FadeStackView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FadeStackView_Tests.modulemap"; sourceTree = "<group>"; };
 		4D8CF15765CF123F8A802A7AF97B3EA7 /* Pods-FadeStackView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FadeStackView_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 		574C910E0C46D51702F2924AF29FBA43 /* FadeStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FadeStackView.modulemap; sourceTree = "<group>"; };
 		654AF6B4BDD2D133D8DF81C3B453671A /* Pods-FadeStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadeStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7622FF19EABFE676B44E096FE9225A52 /* FadeStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FadeStackView-umbrella.h"; sourceTree = "<group>"; };
-		78FE79170FA6665CE4AE30AA91F540CC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		8E8844E31AB808ECF91F6E5213BABE99 /* FadeStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FadeStackView.xcconfig; sourceTree = "<group>"; };
 		B0D2063CDCD7727168DEA84C9CB74406 /* FadeStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FadeStackView-prefix.pch"; sourceTree = "<group>"; };
 		B821ED19C59A6CFEE9A41BFCFB049171 /* Pods-FadeStackView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadeStackView_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -128,7 +130,8 @@
 		857B79BDD434BCBF780BE847C61BF7EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				78FE79170FA6665CE4AE30AA91F540CC /* ReplaceMe.m */,
+				2EFE875A1C9A9C7000E5DBCD /* FadeStackView.h */,
+				2EFE875B1C9A9C7000E5DBCD /* FadeStackView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFE875C1C9A9C7000E5DBCD /* FadeStackView.h in Headers */,
 				9A213D6764232FC64E4EDDED098B3A20 /* FadeStackView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D120DD8DECAC0AFF277ACFD94A22384D /* FadeStackView-dummy.m in Sources */,
-				956F299B8E1D5D518FA004DCB6D77705 /* ReplaceMe.m in Sources */,
+				2EFE875D1C9A9C7000E5DBCD /* FadeStackView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

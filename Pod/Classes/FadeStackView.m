@@ -61,6 +61,19 @@
     }
 }
 
+- (UIView *)dequeueViewAtIndex:(NSInteger)index {
+    UIView *cell = [self.cache objectForKey:[NSString stringWithFormat:@"%@", @(index)]];
+    BOOL useCell = YES;
+    if ([self.delegate respondsToSelector:@selector(fadeStackView:shouldUseCell:atIndex:)]) {
+        useCell = [self.delegate fadeStackView:self shouldUseCell:cell atIndex:index];
+    }
+    if (cell && useCell) {
+        return cell;
+    } else {
+        return nil;
+    }
+}
+
 - (void)cacheView:(UIView *)view atIndex:(NSInteger)index {
     [self.cache setObject:view forKey:[NSString stringWithFormat:@"%@", @(index)]];
     NSInteger removed = [self addIndex:index];
@@ -139,16 +152,7 @@
 }
 
 - (UIView *)viewAtIndex:(NSInteger)index {
-    UIView *cell = [self.cache objectForKey:[NSString stringWithFormat:@"%@", @(index)]];
-    BOOL useCell = YES;
-    if ([self.delegate respondsToSelector:@selector(fadeStackView:shouldUseCell:atIndex:)]) {
-        useCell = [self.delegate fadeStackView:self shouldUseCell:cell atIndex:index];
-    }
-    if (cell && useCell) {
-        return cell;
-    } else {
-        return [self.datasource fadeStackView:self viewAtIndex:index];
-    }
+    return [self.datasource fadeStackView:self viewAtIndex:index];
 }
 
 - (void)removeCellFormCacheAtIndex:(NSInteger)index {
