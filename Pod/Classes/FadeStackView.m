@@ -75,6 +75,7 @@
 }
 
 - (void)cacheView:(UIView *)view atIndex:(NSInteger)index {
+    if (!view) return;
     [self.cache setObject:view forKey:[NSString stringWithFormat:@"%@", @(index)]];
     NSInteger removed = [self addIndex:index];
     if (removed != -1) [self removeCellFormCacheAtIndex:removed];
