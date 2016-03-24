@@ -13,8 +13,6 @@
 @property (strong, nonatomic) UIView *currentView;
 @property (strong, nonatomic) UIView *nextView;
 @property (assign, nonatomic) NSInteger currentIndex;
-@property (strong, nonatomic) NSMutableArray *stack;
-@property (strong, nonatomic) NSMutableDictionary *cache;
 
 @end
 
@@ -46,39 +44,16 @@
 
 - (void)setupAndClearIfNeed:(BOOL)needClear {
     !needClear ? :[self clear];
-    self.cache = [NSMutableDictionary dictionary];
-    self.stack = [NSMutableArray array];
     self.currentIndex = needClear ? self.currentIndex : 0;
     [self generateCurrentView];
 }
 
 - (void)fadeToIndex:(NSInteger)index {
     if (index != self.currentIndex) {
-        [self cacheView:self.currentView atIndex:self.currentIndex];
         [self generateViewAtIndex:index];
         [self animateSwithView:self.currentView fromIndex:self.currentIndex toIndex:index];
         self.currentIndex = index;
     }
-}
-
-- (UIView *)dequeueViewAtIndex:(NSInteger)index {
-    UIView *cell = [self.cache objectForKey:[NSString stringWithFormat:@"%@", @(index)]];
-    BOOL useCell = YES;
-    if ([self.delegate respondsToSelector:@selector(fadeStackView:shouldUseCell:atIndex:)]) {
-        useCell = [self.delegate fadeStackView:self shouldUseCell:cell atIndex:index];
-    }
-    if (cell && useCell) {
-        return cell;
-    } else {
-        return nil;
-    }
-}
-
-- (void)cacheView:(UIView *)view atIndex:(NSInteger)index {
-    if (!view) return;
-    [self.cache setObject:view forKey:[NSString stringWithFormat:@"%@", @(index)]];
-    NSInteger removed = [self addIndex:index];
-    if (removed != -1) [self removeCellFormCacheAtIndex:removed];
 }
 
 - (void)animateSwithView:(UIView *)view fromIndex:(NSInteger)formIndex toIndex:(NSInteger)toIndex {
@@ -136,32 +111,8 @@
     }
 }
 
-- (NSInteger)addIndex:(NSInteger)index {
-    if ([self.stack containsObject:@(index)]) {
-        [self.stack removeObject:@(index)];
-    }
-    if (index != 0) {
-        [self.stack addObject:@(index)];
-    }
-    if (self.stack.count > 3) {
-        NSInteger removed = [[self.stack firstObject] integerValue];
-        [self.stack removeObjectAtIndex:0];
-        return removed;
-    } else {
-        return -1;
-    }
-}
-
 - (UIView *)viewAtIndex:(NSInteger)index {
     return [self.datasource fadeStackView:self viewAtIndex:index];
-}
-
-- (void)removeCellFormCacheAtIndex:(NSInteger)index {
-    UIView *cell = [self.cache objectForKey:[NSString stringWithFormat:@"%@", @(index)]];
-    if ([self.delegate respondsToSelector:@selector(fadeStackView:willRemoveViewFromCache:)]) {
-        [self.delegate fadeStackView:self willRemoveViewFromCache:cell];
-    }
-    [self.cache removeObjectForKey:[NSString stringWithFormat:@"%@", @(index)]];
 }
 
 @end

@@ -17,7 +17,6 @@
 
 - (void)reloadData;
 - (void)fadeToIndex:(NSInteger)index;
-- (UIView *)dequeueViewAtIndex:(NSInteger)index;
 - (UIView *)getCurrentView;
 - (NSInteger)getCurrentIndex;
 
