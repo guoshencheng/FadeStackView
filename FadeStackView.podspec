@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FadeStackView"
-  s.version          = "1.1.1"
+  s.version          = "1.2.1"
   s.summary          = "A Container for views switched with fade animation"
 
 # This description is used to generate tags and improve search results.

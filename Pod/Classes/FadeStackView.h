@@ -34,6 +34,7 @@
 @protocol FadeStackViewDatasource <NSObject>
 @optional
 - (UIView *)fadeStackView:(FadeStackView *)fadeStackView viewAtIndex:(NSInteger)index;
+- (CGRect)fadeStackViewCellRect:(FadeStackView *)fadeStackView;
 - (NSInteger)numberOfViewsInFadeStackView:(FadeStackView *)fadeStackView;
 
 @end

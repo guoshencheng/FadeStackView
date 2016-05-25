@@ -93,7 +93,7 @@
         self.currentView = [self viewAtIndex:self.currentIndex];
         if (self.currentView) {
             [self addSubview:self.currentView];
-            self.currentView.frame = [UIScreen mainScreen].bounds;
+            self.currentView.frame = [self cellRect];
         }
     }
 }
@@ -108,9 +108,17 @@
         self.nextView = [self viewAtIndex:index];
         if (self.nextView) {
             [self insertSubview:self.nextView atIndex:0];
-            self.nextView.frame = [UIScreen mainScreen].bounds;
+            self.nextView.frame = [self cellRect];
             self.nextView.hidden = YES;
         }
+    }
+}
+
+- (CGRect)cellRect {
+    if ([self.datasource respondsToSelector:@selector(fadeStackViewCellRect:)]) {
+        return [self.datasource fadeStackViewCellRect:self];
+    } else {
+        return [UIScreen mainScreen].bounds;
     }
 }
 
