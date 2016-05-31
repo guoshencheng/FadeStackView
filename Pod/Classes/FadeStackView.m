@@ -64,12 +64,14 @@
         self.currentView.alpha = 0;
         self.nextView.alpha = 1;
     } completion:^(BOOL finished) {
-        [self.currentView removeFromSuperview];
-        if ([self.delegate respondsToSelector:@selector(fadeStackView:didEndDisplayView:atIndex:)]) {
-            [self.delegate fadeStackView:self didEndDisplayView:self.currentView atIndex:formIndex];
+        if (finished) {
+            [self.currentView removeFromSuperview];
+            if ([self.delegate respondsToSelector:@selector(fadeStackView:didEndDisplayView:atIndex:)]) {
+                [self.delegate fadeStackView:self didEndDisplayView:self.currentView atIndex:formIndex];
+            }
+            self.currentView = self.nextView;
+            self.nextView = nil;
         }
-        self.currentView = self.nextView;
-        self.nextView = nil;
     }];
 }
 
