@@ -71,6 +71,8 @@
             }
             self.currentView = self.nextView;
             self.nextView = nil;
+            self.currentView.alpha = 1;
+            self.currentView.hidden = NO;
         }
     }];
 }
